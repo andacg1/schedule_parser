@@ -64,7 +64,7 @@ for (let i=0;i<days.length;i++) {
 }
 
 const data = new Uint8Array(Buffer.from(cal.toString()));
-writeFile('schedule.ical', data, (err) => {
+writeFile('schedule.ics', data, (err) => {
     if (err) throw err;
     console.log('The file has been saved!');
 });
