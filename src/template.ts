@@ -496,4 +496,4 @@ export default `
   <br>
   <br>
 </div></body></html>
-`
+` as string
