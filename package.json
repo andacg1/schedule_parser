@@ -5,9 +5,7 @@
   "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start": "tsc && babel src --out-dir dist --extensions '.ts,.tsx' && node dist/index.js",
-    "compile": "babel src/**/* --out-dir dist --extensions '.ts,.tsx'"
+    "start": "tsc && node dist/index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",

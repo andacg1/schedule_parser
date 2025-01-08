@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs';
 import { Buffer } from 'node:buffer';
-require('dotenv').config({ path: "../.env" })
+require('dotenv').config({ path: [".env",".env.local"]})
 import jsdom from "jsdom";
 import { DateTime } from "luxon";
 import ical, { ICalCalendarMethod, ICalEventRepeatingFreq } from "ical-generator";

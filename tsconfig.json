@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "outDir": "dist",
     "lib": ["DOM"],
-    "noEmit": true
+    "noEmit": false
   },
   "include": ["src/**/*", "html.d.ts", "environment.d.ts"]
 }
